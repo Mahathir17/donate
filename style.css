@@ -1,0 +1,225 @@
+body{
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+*{
+    margin: 0;
+}
+.flexible-container{
+    display: flex;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: rgb(98, 98, 98);
+}
+.half-width{
+    width: 50%;
+}
+#first-banner{
+    background-image: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    height: 500px;
+    text-align: center;
+    width: 100%;
+}
+#first-banner h1{
+    color: white;
+    padding-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    width: 700px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+#first-banner p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.donate-btn{
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(255, 52, 66);
+    transition: 0.5s;
+}
+.donate-btn:hover{
+    transform: scale(1.2);
+    background-color: rgb(255, 20, 36);
+}
+.ammount-banner{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.ammount-banner h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.ammount-banner p{
+    color: rgb(98, 98, 98);
+    margin-bottom: 40px;
+}
+.tk-container h3{
+    margin: 0 auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: rgb(240, 240, 240);
+}
+.tk-container h3:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.tk-container h3:nth-child(2){
+    color: red;
+    border: 1px solid red;
+}
+.ammount-banner input{
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+.ammount-banner input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(196, 196, 196);
+    /* opacity: 1; Firefox */
+}
+.plan-banner{
+    text-align: center;
+    margin-top: 90px;
+    width: 80%;
+    margin: 0 auto;
+}
+.plan-banner h2{
+    font-size: 40px;
+    margin: 80px 0 20px 0;
+}
+.plan-banner p{
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(125, 125, 125);
+    margin-bottom: 20px;
+}
+.plan-card-item{
+    margin: 0 20px;
+    border-radius: 10px;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.plan-card-item:nth-child(1){
+    background-color: rgba(0, 204, 51, 0.082);
+}
+.plan-card-item:nth-child(2){
+    background-color: rgba(118, 18, 0, 0.082);
+}
+.plan-card-item:nth-child(3){
+    background-color: rgba(201, 191, 0, 0.199);
+}
+.plan-card-item p{
+    text-align: justify;
+}
+.plan-banner h3{
+    margin: 20px 0;
+}
+.contribute-container{
+    width: 90%;
+    margin: 100px auto
+}
+.contribute-container img{
+    width: 70%;
+    border-radius: 10px;
+}
+.contribute-item-div{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.contribute-item-div h2{
+    text-align: left;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 55%;
+    margin-bottom: 30px;
+}
+.contribute-item-div p{
+    width: 55%;
+    text-align: left;
+    margin: 0 auto;
+    color: rgb(125, 125, 125);
+}
+.contribute-item-div button{
+    text-align: left;
+    margin-top: 30px;
+}
+.update-container{
+    text-align: center;
+}
+.update-container p{
+    width: 40%;
+    margin: 20px auto;
+}
+#email-input{
+    background-color: rgba(255, 246, 150, 0.534);
+    width: 50%;
+    margin: 0 auto;
+    /* height: 500px; */
+    padding: 50px;
+    border-radius: 10px;
+}
+#email-input input{
+    margin: 0;
+    background-color: rgb(217, 217, 217);
+    border: 0;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#email-input button{
+    margin: 0;
+    margin-left: -9px;
+    border: 0;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color: rgb(255, 52, 66);
+    font-weight: bold;
+    transition: 0.3s;
+}
+#email-input button:hover{
+    background-color: rgb(188, 37, 47);
+}
+#email-input input::placeholder{
+    font-weight: bolder;
+}
+footer {
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Splash', cursive;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px 0;
+} 
+footer h2{
+    color:rgb(255, 52, 66);
+}
+footer p{
+    color: white;
+}
